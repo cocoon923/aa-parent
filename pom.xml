@@ -27,9 +27,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:svn:http://218.108.50.250:8181/RD2/04.PROJECT/01.AA/01.CODE/trunk/aa-parent</connection>
-		<developerConnection>scm:svn:http://218.108.50.250:8181/RD2/04.PROJECT/01.AA/01.CODE/trunk/aa-parent</developerConnection>
-		<url>http://218.108.50.250:8181/RD2</url>
+		<connection>scm:git:https://github.com/cocoon923/aa-parent.git</connection>
+		<developerConnection>scm:git:https://github.com/cocoon923/aa-parent.git</developerConnection>
+		<url>https://github.com/cocoon923/aa-parent.git</url>
 	</scm>
 
 	<distributionManagement>
@@ -444,18 +444,19 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-scm-plugin</artifactId>
-				<version>1.0</version>
+				<version>1.7</version>
 				<configuration>
-					<goals>install</goals>
+					<scmVersionType>branch</scmVersionType>
+					<scmVersion>master</scmVersion>
 				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
 				<configuration>
-					<tagBase>http://218.108.50.250:8181/RD2/04.PROJECT/01.AA/01.CODE/tags/aa-parent</tagBase>
-					<username>${svn.name}</username>
-					<password>${svn.pwd}</password>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<scmCommentPrefix></scmCommentPrefix>
+					<tagNameFormat>aa-parent-@{project.version}</tagNameFormat>
 				</configuration>
 			</plugin>
 		</plugins>
