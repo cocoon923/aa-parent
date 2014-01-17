@@ -4,7 +4,7 @@
 
 	<groupId>cn.iaa</groupId>
 	<artifactId>aa-parent</artifactId>
-	<version>0.2.2</version>
+	<version>0.2.3-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>aa-parent</name>
@@ -74,7 +74,7 @@
 			<dependency>
 				<groupId>cn.iaa</groupId>
 				<artifactId>aa-common</artifactId>
-				<version>0.2.2</version>
+				<version>0.2.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
 				<groupId>antlr</groupId>
