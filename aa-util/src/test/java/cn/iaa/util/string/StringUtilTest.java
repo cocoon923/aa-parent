@@ -1,4 +1,4 @@
-package cn.iaa.common.string;
+package cn.iaa.util.string;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;

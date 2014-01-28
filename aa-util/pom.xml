@@ -12,7 +12,7 @@
 		<version>0.2.3-SNAPSHOT</version>
 	</parent>
 
-	<name>aa-common</name>
+	<name>aa-util</name>
 	<url>http://iaa.cn</url>
 
 	<properties>

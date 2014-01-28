@@ -1,4 +1,4 @@
-package cn.iaa.common.spring;
+package cn.iaa.util.spring;
 
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;

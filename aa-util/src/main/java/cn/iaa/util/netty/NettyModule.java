@@ -1,4 +1,4 @@
-package cn.iaa.common.netty;
+package cn.iaa.util.netty;
 
 import static com.google.inject.name.Names.named;
 import io.netty.channel.ChannelHandler;

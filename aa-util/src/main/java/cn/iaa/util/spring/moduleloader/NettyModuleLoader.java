@@ -1,9 +1,9 @@
-package cn.iaa.common.spring.moduleloader;
+package cn.iaa.util.spring.moduleloader;
 
 import io.netty.channel.ChannelHandler;
-import cn.iaa.common.netty.NettyModule;
-import cn.iaa.common.netty.NettyServer;
-import cn.iaa.common.spring.netty.NettyAbility;
+import cn.iaa.util.netty.NettyModule;
+import cn.iaa.util.netty.NettyServer;
+import cn.iaa.util.spring.netty.NettyAbility;
 
 import com.google.inject.Guice;
 import com.google.inject.Injector;

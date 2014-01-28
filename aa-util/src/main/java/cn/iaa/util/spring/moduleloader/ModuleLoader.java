@@ -1,4 +1,4 @@
-package cn.iaa.common.spring.moduleloader;
+package cn.iaa.util.spring.moduleloader;
 
 import java.util.Properties;
 

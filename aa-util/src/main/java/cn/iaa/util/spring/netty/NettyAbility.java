@@ -1,4 +1,4 @@
-package cn.iaa.common.spring.netty;
+package cn.iaa.util.spring.netty;
 
 public interface NettyAbility {
 

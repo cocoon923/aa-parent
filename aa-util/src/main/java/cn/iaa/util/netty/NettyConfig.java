@@ -1,4 +1,4 @@
-package cn.iaa.common.netty;
+package cn.iaa.util.netty;
 
 import io.netty.channel.ChannelOption;
 import io.netty.channel.nio.NioEventLoopGroup;

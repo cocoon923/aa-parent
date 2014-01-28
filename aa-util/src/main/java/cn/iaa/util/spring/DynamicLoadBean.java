@@ -1,4 +1,4 @@
-package cn.iaa.common.spring;
+package cn.iaa.util.spring;
 
 import java.io.ByteArrayInputStream;
 
