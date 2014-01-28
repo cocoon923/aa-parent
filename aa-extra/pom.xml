@@ -5,7 +5,7 @@
 		<artifactId>aa-parent</artifactId>
 		<version>0.2.3-SNAPSHOT</version>
 	</parent>
-	<artifactId>aa-util</artifactId>
+	<artifactId>aa-extra</artifactId>
 
 	<dependencies>
 		<dependency>

@@ -13,7 +13,7 @@
 
 	<modules>
 		<module>aa-common</module>
-		<module>aa-util</module>
+		<module>aa-extra</module>
 		<module>aa-redis</module>
 		<module>aa-core</module>
 	</modules>
@@ -81,7 +81,7 @@
 			</dependency>
 			<dependency>
 				<groupId>cn.iaa</groupId>
-				<artifactId>aa-util</artifactId>
+				<artifactId>aa-extra</artifactId>
 				<version>0.2.3-SNAPSHOT</version>
 			</dependency>
 			<dependency>
