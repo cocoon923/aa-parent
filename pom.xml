@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.iaa</groupId>
@@ -18,7 +19,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>3.2.5.RELEASE</spring.version>
+		<spring.version>4.0.0.RELEASE</spring.version>
 		<jetty.version>7.6.9.v20130131</jetty.version>
 		<mybaits.version>3.1.1</mybaits.version>
 		<unitils.version>3.3</unitils.version>
@@ -36,12 +37,12 @@
 		<repository>
 			<id>nexus-releases</id>
 			<name>nexus-releases</name>
-			<url>http://218.108.50.250:8081/nexus/content/repositories/releases/</url>
+			<url>http://218.108.50.246:8081/nexus/content/repositories/releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
 			<name>nexus-snapshots</name>
-			<url>http://218.108.50.250:8081/nexus/content/repositories/snapshots/</url>
+			<url>http://218.108.50.246:8081/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
@@ -282,6 +283,11 @@
 				<groupId>org.springframework</groupId>
 				<artifactId>spring-orm</artifactId>
 				<version>${spring.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.data</groupId>
+				<artifactId>spring-data-redis</artifactId>
+				<version>1.1.0.RELEASE</version>
 			</dependency>
 			<dependency>
 				<groupId>net.sf.json-lib</groupId>
