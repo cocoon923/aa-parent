@@ -13,6 +13,7 @@
 	<modules>
 		<module>aa-common</module>
 		<module>aa-util</module>
+		<module>aa-redis</module>
 	</modules>
 
 	<properties>
