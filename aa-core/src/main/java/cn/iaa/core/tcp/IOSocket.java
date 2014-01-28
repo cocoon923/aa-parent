@@ -1,4 +1,4 @@
-package cn.iaa.common.tcpip;
+package cn.iaa.core.tcp;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataInputStream;

@@ -12,8 +12,8 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.io.InputStreamResource;
 import org.springframework.core.io.Resource;
 
-import cn.iaa.common.logging.LogUtil;
-import cn.iaa.common.string.StringUtil;
+import cn.iaa.core.StringUtil;
+import cn.iaa.core.log.LogUtil;
 
 public class DynamicLoadBean implements ApplicationContextAware {
 	

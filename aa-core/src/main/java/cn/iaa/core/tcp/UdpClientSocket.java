@@ -1,11 +1,11 @@
-package cn.iaa.common.tcpip;
+package cn.iaa.core.tcp;
 
 import java.io.IOException;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
-import cn.iaa.common.string.StringUtil;
+import cn.iaa.core.StringUtil;
 
 public class UdpClientSocket {
 	private byte[] buffer = new byte[1024];

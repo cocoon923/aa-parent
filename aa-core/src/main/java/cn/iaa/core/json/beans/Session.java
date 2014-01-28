@@ -1,6 +1,6 @@
-package cn.iaa.common.json.beans;
+package cn.iaa.core.json.beans;
 
-import cn.iaa.common.json.JSONBean;
+import cn.iaa.core.json.JSONBean;
 
 public class Session extends JSONBean {
 

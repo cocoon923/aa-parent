@@ -1,4 +1,4 @@
-package cn.iaa.common.string;
+package cn.iaa.core;
 
 import java.nio.charset.Charset;
 import java.text.ParseException;

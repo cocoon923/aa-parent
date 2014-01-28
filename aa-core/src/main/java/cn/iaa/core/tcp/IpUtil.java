@@ -1,4 +1,4 @@
-package cn.iaa.common.tcpip;
+package cn.iaa.core.tcp;
 
 import java.io.BufferedReader;
 import java.io.IOException;

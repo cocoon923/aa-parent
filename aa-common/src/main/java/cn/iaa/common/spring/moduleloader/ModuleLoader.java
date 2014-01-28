@@ -5,9 +5,9 @@ import java.util.Properties;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import cn.iaa.common.file.FileUtil;
-import cn.iaa.common.logging.LogUtil;
-import cn.iaa.common.string.StringUtil;
+import cn.iaa.core.FileUtil;
+import cn.iaa.core.StringUtil;
+import cn.iaa.core.log.LogUtil;
 
 public abstract class ModuleLoader {
 

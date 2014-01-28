@@ -1,9 +1,9 @@
-package cn.iaa.common.json;
+package cn.iaa.core.json;
 
 import java.util.ArrayList;
 
 import net.sf.json.JSONObject;
-import cn.iaa.common.string.StringUtil;
+import cn.iaa.core.StringUtil;
 
 public class JSONUtil {
 

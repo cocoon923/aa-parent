@@ -1,10 +1,10 @@
-package cn.iaa.common.logging;
+package cn.iaa.core.log;
 
 import org.slf4j.LoggerFactory;
 
+import cn.iaa.core.StringUtil;
 import ch.qos.logback.classic.LoggerContext;
 import ch.qos.logback.classic.joran.JoranConfigurator;
-import cn.iaa.common.string.StringUtil;
 
 /**
  * The <code>LogFactory</code> is a utility class load log xml file. Support

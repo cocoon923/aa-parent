@@ -9,7 +9,7 @@ import org.jivesoftware.smack.Roster;
 import org.jivesoftware.smack.RosterEntry;
 import org.jivesoftware.smack.RosterGroup;
 
-import cn.iaa.common.logging.LogUtil;
+import cn.iaa.core.log.LogUtil;
 
 public class XmppUtil {
 

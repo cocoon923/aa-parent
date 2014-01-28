@@ -1,10 +1,10 @@
-package cn.iaa.common.json;
+package cn.iaa.core.json;
 
 import java.util.HashMap;
 import java.util.Iterator;
 
 import net.sf.json.JSONObject;
-import cn.iaa.common.string.StringUtil;
+import cn.iaa.core.StringUtil;
 
 public class JSONBean extends HashMap<String, String> implements Cloneable {
 

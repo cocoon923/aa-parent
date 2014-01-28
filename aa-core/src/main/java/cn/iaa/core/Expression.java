@@ -1,4 +1,4 @@
-package cn.iaa.common.consts;
+package cn.iaa.core;
 
 public final class Expression {
 

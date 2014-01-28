@@ -1,4 +1,4 @@
-package cn.iaa.common.logging;
+package cn.iaa.core.log;
 
 import org.slf4j.LoggerFactory;
 

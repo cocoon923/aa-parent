@@ -1,7 +1,7 @@
-package cn.iaa.common.json.beans;
+package cn.iaa.core.json.beans;
 
-import cn.iaa.common.json.JSONBean;
-import cn.iaa.common.string.StringUtil;
+import cn.iaa.core.StringUtil;
+import cn.iaa.core.json.JSONBean;
 
 public class Message extends JSONBean implements Cloneable {
 

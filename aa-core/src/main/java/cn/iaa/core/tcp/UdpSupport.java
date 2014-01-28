@@ -1,7 +1,7 @@
-package cn.iaa.common.tcpip;
+package cn.iaa.core.tcp;
 
-import cn.iaa.common.logging.LogUtil;
-import cn.iaa.common.string.StringUtil;
+import cn.iaa.core.StringUtil;
+import cn.iaa.core.log.LogUtil;
 
 public class UdpSupport {
 

@@ -10,7 +10,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>cn.iaa</groupId>
-			<artifactId>aa-common</artifactId>
+			<artifactId>aa-core</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.google.zxing</groupId>

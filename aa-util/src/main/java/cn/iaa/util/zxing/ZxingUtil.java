@@ -4,7 +4,7 @@ import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 
-import cn.iaa.common.logging.LogUtil;
+import cn.iaa.core.log.LogUtil;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.EncodeHintType;

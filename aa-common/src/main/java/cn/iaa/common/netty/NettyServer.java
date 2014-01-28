@@ -13,7 +13,7 @@ import java.util.Set;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
-import cn.iaa.common.logging.LogUtil;
+import cn.iaa.core.log.LogUtil;
 
 import com.google.inject.Inject;
 import com.google.inject.name.Named;

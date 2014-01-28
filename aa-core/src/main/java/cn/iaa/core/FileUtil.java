@@ -1,4 +1,4 @@
-package cn.iaa.common.file;
+package cn.iaa.core;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-import cn.iaa.common.logging.LogUtil;
+import cn.iaa.core.log.LogUtil;
 
 public class FileUtil {
 

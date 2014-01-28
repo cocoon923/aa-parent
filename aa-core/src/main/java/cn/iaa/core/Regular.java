@@ -1,7 +1,7 @@
-package cn.iaa.common.regular;
+package cn.iaa.core;
 
-import static cn.iaa.common.consts.Expression.EMAIL;
-import static cn.iaa.common.consts.Expression.PHONE;
+import static cn.iaa.core.Expression.EMAIL;
+import static cn.iaa.core.Expression.PHONE;
 
 import java.util.regex.Pattern;
 
