@@ -12,10 +12,10 @@
 	<url>http://iaa.cn</url>
 
 	<modules>
-		<module>aa-util</module>
-		<module>aa-extra</module>
-		<module>aa-redis</module>
 		<module>aa-core</module>
+		<module>aa-util</module>
+		<module>aa-redis</module>
+		<module>aa-extra</module>
 	</modules>
 
 	<properties>
