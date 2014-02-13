@@ -7,7 +7,7 @@ public class JedisConnectionConfig {
 	private String hostname;
 	private int port;
 	private String password;
-	private int timeout = 2;
+	private int timeout = 2000;
 
 	public JedisConnectionConfig() {
 	}

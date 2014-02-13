@@ -20,7 +20,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<spring.version>4.0.1.RELEASE</spring.version>
+		<spring.version>3.2.6.RELEASE</spring.version>
 		<jetty.version>7.6.9.v20130131</jetty.version>
 		<mybaits.version>3.1.1</mybaits.version>
 		<unitils.version>3.3</unitils.version>

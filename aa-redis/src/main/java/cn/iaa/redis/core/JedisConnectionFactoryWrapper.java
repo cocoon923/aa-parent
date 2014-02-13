@@ -16,6 +16,11 @@ public class JedisConnectionFactoryWrapper implements FactoryBean<JedisConnectio
 		}
 		if (jedisPoolConfig != null) {
 			this.jedisPoolConfig = jedisPoolConfig;
+		} else {
+			this.jedisPoolConfig.setMaxActive(300);
+			this.jedisPoolConfig.setMaxIdle(100);
+			this.jedisPoolConfig.setMaxWait(1000);
+			this.jedisPoolConfig.setTestOnBorrow(true);
 		}
 	}
 

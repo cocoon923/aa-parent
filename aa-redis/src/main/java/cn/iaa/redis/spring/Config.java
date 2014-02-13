@@ -6,6 +6,7 @@ import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
 import redis.clients.jedis.JedisPoolConfig;
+import cn.iaa.core.log.LogUtil;
 import cn.iaa.redis.core.JedisConfig;
 import cn.iaa.redis.core.JedisConfigFactory;
 import cn.iaa.redis.core.JedisConnectionConfig;
@@ -33,7 +34,10 @@ public class Config {
 
 	@Bean(destroyMethod = "destroy")
 	public JedisConnectionFactory jedisConnectionFactory() {
-		return (new JedisConnectionFactoryWrapper(jedisConnectionConfig(), jedisPoolConfig())).getObject();
+		JedisConnectionFactory jedisConnectionFactory = (new JedisConnectionFactoryWrapper(jedisConnectionConfig(), jedisPoolConfig()))
+				.getObject();
+		LogUtil.debug(getClass(), "Jedis Connection Factory Build Success!");
+		return jedisConnectionFactory;
 	}
 
 	@Bean
