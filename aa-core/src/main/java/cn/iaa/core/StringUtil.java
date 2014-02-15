@@ -4,6 +4,7 @@ import java.nio.charset.Charset;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Collection;
 import java.util.Date;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
@@ -86,6 +87,21 @@ public final class StringUtil {
 	 * @return {@link Boolean}
 	 */
 	public static boolean assertNotNull(String... strs) {
+		for (String s : strs) {
+			if (!assertNotNull(s)) {
+				return false;
+			}
+		}
+		return true;
+	}
+
+	/**
+	 * If any one of the string is empty, return false.
+	 * 
+	 * @param strs
+	 * @return {@link Boolean}
+	 */
+	public static boolean assertNotNull(Collection<String> strs) {
 		for (String s : strs) {
 			if (!assertNotNull(s)) {
 				return false;
