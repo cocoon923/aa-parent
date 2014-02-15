@@ -7,6 +7,7 @@ import javax.crypto.SecretKey;
 import javax.crypto.SecretKeyFactory;
 import javax.crypto.spec.DESKeySpec;
 
+import cn.iaa.core.StringUtil;
 import cn.iaa.core.log.LogUtil;
 
 public class DesCode {
@@ -27,7 +28,7 @@ public class DesCode {
 	}
 
 	public static String crypto(String datasource, String password) {
-		return new String(crypto(datasource.getBytes(), password));
+		return new String(crypto(datasource.getBytes(StringUtil.getDefaultCharset()), password), StringUtil.getDefaultCharset());
 	}
 
 	public static byte[] decrypt(byte[] src, String password) {
@@ -46,7 +47,7 @@ public class DesCode {
 	}
 
 	public static String decrypt(String src, String password) {
-		return new String(decrypt(src.getBytes(), password));
+		return new String(decrypt(src.getBytes(StringUtil.getDefaultCharset()), password), StringUtil.getDefaultCharset());
 	}
 
 }
