@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 import net.sf.json.JSONObject;
 import cn.iaa.core.StringUtil;
+import cn.iaa.core.json.beans.Message;
 
 public class JSONUtil {
 
 	/**
-	 * Format every field of <tt>source</tt> to {@link String} by method
-	 * <tt>ToBeString()</tt> of {@link StringUtil}.
+	 * Format every field of <tt>source</tt> to {@link String} by method <tt>ToBeString()</tt> of {@link StringUtil}.
 	 * 
 	 * @param source
 	 * @return {@link JSONObject}
@@ -19,6 +19,16 @@ public class JSONUtil {
 		if (source != null) {
 			for (Object key : source.keySet()) {
 				dest.put(key, StringUtil.ToBeString(source.get(key)));
+			}
+		}
+		return dest;
+	}
+
+	public static Message format2Message(JSONObject source) {
+		Message dest = Message.getMessage();
+		if (source != null) {
+			for (Object key : source.keySet()) {
+				dest.put(key.toString(), source.get(key).toString());
 			}
 		}
 		return dest;
@@ -137,8 +147,8 @@ public class JSONUtil {
 			json = json.substring(1);
 
 			if (!isInYinHao
-					&& (token.equals(":") || token.equals("{") || token.equals("}") || token.equals("[")
-							|| token.equals("]") || token.equals(","))) {
+					&& (token.equals(":") || token.equals("{") || token.equals("}") || token.equals("[") || token.equals("]") || token
+							.equals(","))) {
 				if (buf.toString().trim().length() == 0) {
 					buf.append(token);
 				}
