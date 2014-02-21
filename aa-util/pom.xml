@@ -8,7 +8,7 @@
 	<parent>
 		<artifactId>aa-parent</artifactId>
 		<groupId>cn.iaa</groupId>
-		<version>1.0.3-SNAPSHOT</version>
+		<version>1.0.3</version>
 	</parent>
 
 	<name>aa-util</name>
