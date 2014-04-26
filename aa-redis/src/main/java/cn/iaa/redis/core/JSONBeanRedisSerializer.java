@@ -14,10 +14,10 @@ import cn.iaa.core.json.JSONBean;
  * {@link JSONObject} to byte[] (and back) serializer. Converts
  * {@link JSONObject} into bytes and vice-versa using the specified charset (by
  * default UTF-8).
- * <p/>
+ * <p>
  * Useful when the interaction with the Redis happens mainly through Strings.
  * 
- * <p/>
+ * </p>
  * Does not perform any null conversion since empty strings are valid
  * keys/values.
  * 
